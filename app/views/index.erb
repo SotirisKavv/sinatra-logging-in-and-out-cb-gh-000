@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="stylesheets/bootstrap.css" type="text/css">
   </head>
   <body id="page-top">
+    <%User.create(:username => "skittles123", :password => "iluvskittles", :balance => 1000)%>
+    <%User.create(:username => "flatiron4lyfe", :password => "Rubie!", :balance => 500)%>
+    <%User.create(:username => "kittens1265", :password => "crazycatlady", :balance => 10000)%>
     <h1>Welcome to FlatBank</h1>
     <h3>Log In Please</h3>
     <form method="post" action="/login">
